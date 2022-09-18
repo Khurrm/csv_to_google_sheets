@@ -29,4 +29,5 @@ iii) Make sure to select _Project_ and then afterwards _Owner_ (as shwon in the 
 
 ## Step 4: Create a project in Python Environment
 i) Create a project in Python environment. For that purpose I have already created a virtaul environment. And Python 3.X version is installed. 
+ii) Move the create credentials.json file to the environment and save it there. 
 
