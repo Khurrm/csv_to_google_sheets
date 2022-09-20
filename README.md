@@ -31,3 +31,10 @@ iii) Make sure to select _Project_ and then afterwards _Owner_ (as shwon in the 
 i) Create a project in Python environment. For that purpose I have already created a virtaul environment. And Python 3.X version is installed. 
 ii) Move the create credentials.json file to the environment and save it there. 
 
+## Step 6: Open your IDE and start creating a Project project
+I am using Pycharm. But Visual Studio Code is a good choice as well. 
+i) Create a new project and name it as you like. 
+ii) Move the credentials.json file and move it to this project.
+Note:: I have removed this json file as it is a good practice to use .gitignore to remove such files before committing the code. 
+
+
