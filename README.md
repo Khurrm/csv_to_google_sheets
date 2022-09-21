@@ -37,4 +37,10 @@ i) Create a new project and name it as you like.
 ii) Move the credentials.json file and move it to this project.
 Note:: I have removed this json file as it is a good practice to use .gitignore to remove such files before committing the code. 
 
+## ## Step 7: Create a virtual environment and install all the required libraries. 
+i) I did my research already and the requirements of all libraries that are required for me are put into requirements.txt. Also a virtual environment is created already. 
+ii) Moreover a test.csv is defined as well. 
+iii) Also I have started writing the main file. 
+
+
 
