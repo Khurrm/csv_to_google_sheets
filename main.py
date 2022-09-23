@@ -9,3 +9,13 @@ if __name__ == "__main__":
     print(df)
     credentials_google_sheet = ServiceAccountCredentials.from_json_keyfile_name('Sheets.json', SCOPES_Google_Sheet)
     client_google_sheet = gspread.authorize(credentials_google_sheet)
+    credentials_google_sheet = ServiceAccountCredentials.from_json_keyfile_name('Sheets.json', SCOPES_Google_Sheet)
+    client_google_sheet = gspread.authorize(credentials_google_sheet)
+    
+    spreadsheet_key = 'XXXXXXXXXXXXX' #spreadsheet_key is obfuscated. Kindly use your own key here. 
+    worksheet_name = 'XXXX' #worksheet_name is obfuscated Kindly use your own name here. 
+    """df is the name of data frame. 
+        worksheet_name is the name of the sheet. 
+        Credentials are json data derived from https://console.developers.google.com/.""" 
+    d2g.upload(df, spreadsheet_key, worksheet_name, credentials=credentials_google_sheet, row_names=False)
+
